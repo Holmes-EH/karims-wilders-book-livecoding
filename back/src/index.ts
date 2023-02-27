@@ -54,6 +54,8 @@ const start = async (): Promise<void> => {
 
   try {
     const { url }: { url: string } = await server.listen({ port });
+    console.log('A change in back/index.ts');
+    
     console.log(`🚀  Server ready at ${url}`);
   } catch (err) {
     console.log("Error starting the server");
