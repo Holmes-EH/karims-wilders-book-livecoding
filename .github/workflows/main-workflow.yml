@@ -1,0 +1,10 @@
+name: main-workflow
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  main-ci:
+    uses: ./integration-test-back.yml

@@ -1,6 +1,7 @@
 name: integration-tests-back
 
 on:
+  workflow_call:
   push:
     paths:
       - back/**
