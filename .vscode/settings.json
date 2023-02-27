@@ -1,0 +1,3 @@
+{
+  "eslint.workingDirectories": ["front", "back", "testrunner", "e2e"]
+}
