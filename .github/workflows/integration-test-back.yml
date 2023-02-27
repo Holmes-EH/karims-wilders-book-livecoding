@@ -1,12 +1,11 @@
 name: integration-tests-back
 
 on:
-  pull_request:
-    branches:
-      - main
+  workflow_call:
   push:
     paths:
       - back/**
+      - testrunner/**
 jobs:
   test-back:
     runs-on: ubuntu-latest
