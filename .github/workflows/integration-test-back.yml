@@ -1,7 +1,9 @@
 name: integration-tests-back
 
-on: push
-
+on:
+    push:
+        paths:
+            - back/**
 jobs:
     test-back:
         runs-on: ubuntu-latest
