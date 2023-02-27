@@ -7,4 +7,4 @@ on:
 
 jobs:
   main-ci:
-    uses: ./.github/integration-test-back.yml@main
+    uses: ./.github/workflows/integration-test-back.yml@main
